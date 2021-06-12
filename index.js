@@ -73,7 +73,7 @@ class server {
             ],
             credentials: true,
             methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-            origin: `http://localhost:4200`,
+            origin: `https://josenunez.com.mx/`,
             preflightContinue: false,
         };
         return options;
