@@ -82,6 +82,7 @@ class alumnocontroller {
                                         ispago: 1,
                                         idAlumno: req.body.inscripcion.idAlumno,
                                         idGrupo: req.params.id,
+                                        estado: "cursando",
                                         fecha: Date.now()
                                     }).save();
                                     let newCantidad_alumnos = (cantidad_Alumnos - 1);
