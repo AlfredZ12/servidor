@@ -73,8 +73,7 @@ class server {
             ],
             credentials: true,
             methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-            origin: `https://josenunez.com.mx` `http://josenunez.com.mx`
-                `http://joseanuneza.xyz`,
+            origin: `*`,
             preflightContinue: false,
         };
         return options;
